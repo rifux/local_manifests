@@ -20,8 +20,8 @@ Create a directory for the source files.
 This can be located anywhere (as long as the fs is case-sensitive).
 
 ```bash
-mkdir RisingOS && \
-cd RisingOS
+mkdir -pv RisingOS && \
+    cd RisingOS
 ```
 
 To initialize your local repository using the LMODroid trees, use a command like this:
