@@ -1,0 +1,46 @@
+<p align="center">
+<img src="https://github.com/RisingTechOSS/android/blob/fourteen/risingOS_banner.png">
+</p>
+
+RisingOS feat. rifux
+===========
+
+Getting started
+---------------
+
+### Make sure you have 350 GB free space and 64 GiB RAM + linux_swap (for example, 16 GiB RAM and 50 GiB linux_swap).
+
+To get started with RisingOS, you'll need to get
+familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
+
+## 1. Fetching RisingOS sources
+
+Create a directory for the source files.
+
+This can be located anywhere (as long as the fs is case-sensitive).
+
+```bash
+mkdir rising && \
+cd rising
+```
+
+To initialize your local repository using the LMODroid trees, use a command like this:
+
+```bash
+repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
+```
+
+Now we need to fetch our Redmi K60 Pro manifest:
+
+```bash
+wget --output-document .repo/local_manifests/socrates.xml/ \
+    https://raw.githubusercontent.com/rifux/local_manifests/release/xiaomi/socrates/rising/socrates.xml
+```
+
+Then to sync it up:
+
+```bash
+repo sync -c --no-clone-bundle --optimized-fetch --prune --force-sync -j$(nproc --all)
+```
+
+...
