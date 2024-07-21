@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- hardware -->
+
+    <!-- vendor -->
+
+    <!-- device -->
+
+    <!-- kernel -->
+    
+</manifest>
+
+<!-- don't forget to do `repopick -f -g https://gerrit.aospa.co 37291 -P bootable/recovery` -->
