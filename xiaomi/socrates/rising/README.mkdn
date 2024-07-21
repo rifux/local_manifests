@@ -33,6 +33,7 @@ repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
 Now we need to fetch our Redmi K60 Pro manifest:
 
 ```bash
+mkdir -pv .repo/local_manifests && \
 wget --output-document .repo/local_manifests/socrates.xml/ \
     https://raw.githubusercontent.com/rifux/local_manifests/release/xiaomi/socrates/rising/socrates.xml
 ```
