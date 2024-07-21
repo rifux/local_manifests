@@ -7,7 +7,7 @@
     <project path="vendor/xiaomi/socrates" name="danielml3/proprietary_vendor_xiaomi_socrates" revision="lineage-21" remote="github" />
 
     <!-- device -->
-    <project path="device/xiaomi/socrates" name="danielml3/android_device_xiaomi_socrates" revision="lineage-21" remote="github" />
+    <project path="device/xiaomi/socrates" name="drifux/android_device_xiaomi_socrates" revision="rising" remote="github" />
 
     <!-- kernel -->
     <project path="kernel/xiaomi/socrates" name="danielml3/android_kernel_xiaomi_socrates" revision="lineage-21" remote="github" />
