@@ -10,7 +10,7 @@
     <project path="device/xiaomi/socrates" name="rifux/android_device_xiaomi_socrates" revision="rising" remote="github" />
 
     <!-- kernel -->
-    <project path="kernel/xiaomi/socrates" name="danielml3/android_kernel_xiaomi_socrates" revision="lineage-21" remote="github" />
+    <project path="kernel/xiaomi/socrates" name="danielml3/android_kernel_xiaomi_socrates" revision="staging/lineage-21" remote="github" />
     <project path="kernel/xiaomi/socrates-modules" name="danielml3/android_kernel_xiaomi_socrates-modules" revision="lineage-21" remote="github" />
     <project path="kernel/xiaomi/socrates-devicetrees" name="danielml3/android_kernel_xiaomi_socrates-devicetrees" revision="lineage-21" remote="github" />
 
