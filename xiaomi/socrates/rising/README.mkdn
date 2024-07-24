@@ -2,6 +2,8 @@
 <img src="https://github.com/RisingTechOSS/android/blob/fourteen/risingOS_banner.png">
 </p>
 
+# THIS DEVICE MARKED AS NOT WORKING: SETUP WIZARD CRASH
+
 RisingOS feat. rifux
 ===========
 
