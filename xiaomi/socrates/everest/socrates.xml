@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- hardware -->
-    <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-21" remote="github" />
+    <!-- <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-21" remote="github" />
+        info: hardware/xiaomi is already includded in main manifest --> 
 
     <!-- vendor -->
     <project path="vendor/xiaomi/socrates" name="danielml3/proprietary_vendor_xiaomi_socrates" revision="lineage-21" remote="github" />
