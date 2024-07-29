@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <remote name="codeberg"
+          fetch="https://codeberg.org/"
+          revision="fourteen" />
+    
     <!-- hardware -->
     <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-21" remote="github" />
 
     <!-- vendor -->
-    <project path="vendor/xiaomi/socrates" name="danielml3/proprietary_vendor_xiaomi_socrates" revision="lineage-21" remote="github" />
+    <project path="vendor/xiaomi/socrates" name="rifux/proprietary_vendor_xiaomi_socrates" revision="fourteen" remote="codeberg" />
 
     <!-- device -->
     <project path="device/xiaomi/socrates" name="rifux/android_device_xiaomi_socrates" revision="rising" remote="github" />
